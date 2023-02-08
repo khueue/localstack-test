@@ -5,7 +5,7 @@ A simple setup to showcase the following:
 - Run localstack (in docker compose).
 - Run a separate "shell" container attached to the same network, providing:
   - `terraform`, to provision infrastructure within localstack.
-  - `awslocal`, an awscli wrapper to work with localstack.
+  - `awslocal`, an awscli wrapper to work with AWS resources in localstack.
 
 # Usage
 
