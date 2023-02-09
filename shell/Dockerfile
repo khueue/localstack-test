@@ -26,3 +26,7 @@ RUN curl --location https://awscli.amazonaws.com/awscli-exe-linux-x86_64-${AWSCL
 # Localstack AWS CLI wrapper.
 RUN pip install awscli-local
 ENV LOCALSTACK_HOST=localstack
+
+# Localstack Terraform CLI wrapper.
+RUN pip install terraform-local
+ENV LOCALSTACK_HOSTNAME=localstack
